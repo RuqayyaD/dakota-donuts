@@ -1,0 +1,36 @@
+.header {
+    padding: 1rem 0 3rem;
+    background-color: rgb(252, 188, 198);
+
+}
+
+.title {
+    color: black;
+    font-size: 3rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: black;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: rgb(219, 36, 158)
+}
+
+.active-nav-item {
+    color: white
+}
